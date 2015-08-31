@@ -1,17 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\2.Game\ControllUnitMesh.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\1.Lobby\LobbyManager.cs">
     <Files>
-      <File FileName="Assets\2.Game\BrickMesh.cs" Line="26" Column="21" />
       <File FileName="Assets\1.Lobby\LobbyManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\2.Game\DataManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\2.Game\MeshGen.cs" Line="1" Column="1" />
-      <File FileName="Assets\2.Game\BallMesh.cs" Line="1" Column="1" />
-      <File FileName="Assets\2.Game\ControllUnitMesh.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\2.Game\DataManager.cs" line="47" offsetX="637" offsetY="782" expression="brick" liveUpdate="False" />
+    <Watch file="Assets\2.Game\DataManager.cs" line="91" offsetX="421" offsetY="1530" expression="i" liveUpdate="False" />
+    <Watch file="Assets\2.Game\DataManager.cs" line="92" offsetX="429" offsetY="1547" expression="j" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

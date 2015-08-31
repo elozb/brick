@@ -9,14 +9,11 @@ public class BrickMesh : MeshGen {
 
 		mesh = GetComponent<MeshFilter> ().mesh;
 		
-		float x = transform.position.x;
-		float y = transform.position.y;
-		float z = transform.position.z;
-		
-		listVertex.Add(new Vector3(x-10, y+5,z));
-		listVertex.Add(new Vector3(x+10, y+5,z));
-		listVertex.Add(new Vector3(x-10, y-5,z));
-		listVertex.Add(new Vector3(x+10, y-5,z));
+
+		listVertex.Add(new Vector3(-10, 5,0));
+		listVertex.Add(new Vector3(10, 5,0));
+		listVertex.Add(new Vector3(-10, -5,0));
+		listVertex.Add(new Vector3(10, -5,0));
 
 		GenMesh ();
 
